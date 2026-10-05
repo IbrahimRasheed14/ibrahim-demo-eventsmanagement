@@ -5,7 +5,7 @@ export function SiteHeader() {
         <a href="#top" className="flex items-center gap-3">
           <span
             aria-hidden="true"
-            className="flex size-9 items-center justify-center rounded-full bg-black text-xs font-bold tracking-wide text-white"
+            className="flex size-9 items-center justify-center rounded-full bg-sbu-red text-xs font-bold tracking-wide text-white"
           >
             USG
           </span>
@@ -18,7 +18,7 @@ export function SiteHeader() {
             <li>
               <a
                 href="#what-we-do"
-                className="rounded-full px-3 py-2 text-black/70 transition-colors hover:bg-black/5 hover:text-black"
+                className="rounded-full px-3 py-2 text-black/70 transition-colors hover:bg-sbu-red/5 hover:text-sbu-red"
               >
                 What we do
               </a>

@@ -12,8 +12,8 @@ export default function Page() {
         <WhatWeDo />
         <Contact />
       </main>
-      <footer className="border-t border-black/10 px-6 py-8">
-        <p className="mx-auto max-w-5xl text-sm text-black/55">
+      <footer className="border-t-4 border-sbu-red bg-black px-6 py-8">
+        <p className="mx-auto max-w-5xl text-sm text-white/70">
           Stony Brook Undergraduate Student Government Events Management
         </p>
       </footer>

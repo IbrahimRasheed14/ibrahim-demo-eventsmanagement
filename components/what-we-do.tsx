@@ -33,13 +33,14 @@ export function WhatWeDo() {
         >
           What we do
         </h2>
+        <span aria-hidden="true" className="mt-4 block h-1 w-12 rounded-full bg-sbu-red" />
         <ul className="mt-10 grid gap-5 md:grid-cols-3">
           {services.map(({ icon: Icon, title, description }) => (
             <li
               key={title}
-              className="rounded-2xl border border-black/10 bg-white p-7 transition-colors hover:border-black/30"
+              className="rounded-2xl border border-black/10 bg-white p-7 transition-colors hover:border-sbu-red/50"
             >
-              <span className="flex size-12 items-center justify-center rounded-full bg-black text-white">
+              <span className="flex size-12 items-center justify-center rounded-full bg-sbu-red text-white">
                 <Icon className="size-5" aria-hidden="true" />
               </span>
               <h3 className="mt-6 text-lg font-semibold text-black">{title}</h3>
